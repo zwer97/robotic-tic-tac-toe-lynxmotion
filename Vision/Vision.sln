@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vision", "Vision\Vision.csproj", "{F62D7CC0-9302-424B-A28F-224A6AE74AC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vision.WinForm", "Vision.WinForm\Vision.WinForm.csproj", "{6B36D428-2F9E-4FFD-A53A-8A6310915965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraCalibrator", "CameraCalibrator\CameraCalibrator.csproj", "{6966B1E9-39ED-4FE6-9904-02639D0A459F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F62D7CC0-9302-424B-A28F-224A6AE74AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62D7CC0-9302-424B-A28F-224A6AE74AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62D7CC0-9302-424B-A28F-224A6AE74AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62D7CC0-9302-424B-A28F-224A6AE74AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B36D428-2F9E-4FFD-A53A-8A6310915965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B36D428-2F9E-4FFD-A53A-8A6310915965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B36D428-2F9E-4FFD-A53A-8A6310915965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B36D428-2F9E-4FFD-A53A-8A6310915965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6966B1E9-39ED-4FE6-9904-02639D0A459F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6966B1E9-39ED-4FE6-9904-02639D0A459F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6966B1E9-39ED-4FE6-9904-02639D0A459F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6966B1E9-39ED-4FE6-9904-02639D0A459F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
