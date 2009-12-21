@@ -1,0 +1,100 @@
+﻿<Window x:Class="Robot.Kinematics.UI.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:localConverters="clr-namespace:Robot.Kinematics.UI.Converters"
+    Title="Inverse Kinematics" Height="347" Width="297">
+    <Window.Resources>
+        <localConverters:DoubleToStringConverter x:Key="doubleToStringConverter"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="TextBox">
+                <Setter Property="Margin" Value="2" />
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="Margin" Value="5,5" />
+            </Style>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0" Height="Auto" Name="fileMenu" VerticalAlignment="Top">
+            <MenuItem Header="_File">
+                <MenuItem Name="openMenu" Header="_Open Calibration" Command="{Binding LoadCalibrationCommand}"/>
+            </MenuItem>
+        </Menu>
+        <GroupBox Grid.Row="1" Header="Inputs" Name="inputGroupBox" Height="Auto">
+            <Grid Name="xzGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Grid.Row="0" Name="xLabel" VerticalAlignment="Center">x:</Label>
+                <TextBox Grid.Column="1" Grid.Row="0" Name="xTextBox" Text="{Binding Path=X}"/>
+                
+                <Label Grid.Column="0" Grid.Row="1" Name="yLabel" VerticalAlignment="Center">y:</Label>
+                <TextBox Grid.Column="1" Grid.Row="1" Name="yTextBox" Text="{Binding Path=Y}"/>
+
+                <Label Grid.Column="0" Grid.Row="2" Name="zLabel" VerticalAlignment="Center">z:</Label>
+                <TextBox Grid.Column="1" Grid.Row="2" Name="zTextBox" Text="{Binding Path=Z}" />
+                <CheckBox Grid.Column="2" Grid.Row="2" HorizontalAlignment="Right" Name="checkBox1" VerticalAlignment="Center" Margin="3" IsChecked="{Binding Path=ZIsBasedOnEndeffectorTip}" >End effector tip</CheckBox>
+            </Grid>
+        </GroupBox>
+        <GroupBox Grid.Row="2" Header="Outputs" Name="outputGroupBox">
+            <Grid Name="outputGrid" ShowGridLines="False">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="1" Grid.Row="0" VerticalAlignment="Center">Phi</Label>
+                <Label Grid.Column="2" Grid.Row="0" VerticalAlignment="Center">Theta</Label>
+                <Label Grid.Column="3" Grid.Row="0" VerticalAlignment="Center">msec</Label>
+
+                <Label Grid.Column="0" Grid.Row="1" VerticalAlignment="Center">Base</Label>
+                <Label Grid.Column="0" Grid.Row="2" VerticalAlignment="Center">Shoulder</Label>
+                <Label Grid.Column="0" Grid.Row="3" VerticalAlignment="Center">Elbow</Label>
+                <Label Grid.Column="0" Grid.Row="4" VerticalAlignment="Center">Wrist Tilt</Label>
+
+                <Label Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Content="{Binding Path=BaseAnglePhi0, Converter={StaticResource doubleToStringConverter}}" />
+                <Label Grid.Column="2" Grid.Row="1" VerticalAlignment="Center" Content="{Binding Path=BaseAngleTheta0, Converter={StaticResource doubleToStringConverter}}" />
+                <Label Grid.Column="3" Grid.Row="1" VerticalAlignment="Center" Content="{Binding Path=BaseMilliSecs}" />
+
+                <Label Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" Content="{Binding Path=ShoulderAnglePhi1, Converter={StaticResource doubleToStringConverter}}" />
+                <Label Grid.Column="2" Grid.Row="2" VerticalAlignment="Center" Content="{Binding Path=ShoulderAngleTheta1, Converter={StaticResource doubleToStringConverter}}" />
+                <Label Grid.Column="3" Grid.Row="2" VerticalAlignment="Center" Content="{Binding Path=ShoulderMilliSecs}" />
+
+                <Label Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" Content="{Binding Path=ElbowAnglePhi2, Converter={StaticResource doubleToStringConverter}}" />
+                <Label Grid.Column="2" Grid.Row="3" VerticalAlignment="Center" Content="{Binding Path=ElbowAngleTheta2, Converter={StaticResource doubleToStringConverter}}" />
+                <Label Grid.Column="3" Grid.Row="3" VerticalAlignment="Center" Content="{Binding Path=ElbowMilliSecs}" />
+
+                <Label Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" Content="{Binding Path=WristTiltAnglePhi3, Converter={StaticResource doubleToStringConverter}}" />
+                <Label Grid.Column="2" Grid.Row="4" VerticalAlignment="Center" Content="{Binding Path=WristTiltAnglePhi3, Converter={StaticResource doubleToStringConverter}}" />
+                <Label Grid.Column="3" Grid.Row="4" VerticalAlignment="Center" Content="{Binding Path=WristTiltMilliSecs}" />
+            </Grid>
+        </GroupBox>
+        <StackPanel Grid.Row="3" HorizontalAlignment="Right" Name="stackPanel1" VerticalAlignment="Center" Orientation="Horizontal" >
+            <Button Height="23" HorizontalAlignment="Center" Name="homeButton" VerticalAlignment="Bottom" Width="75" Command="{Binding HomeCommand}">Home</Button>
+            <Button Height="23" HorizontalAlignment="Center" Name="moveButton" VerticalAlignment="Bottom" Width="75" Command="{Binding MoveToCommand}">Move</Button>
+            <Button Height="23" HorizontalAlignment="Center" Name="pickupButton" VerticalAlignment="Bottom" Width="75" Command="{Binding PickUpCommand}">Pick up</Button>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="Arm Geometry.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path3210"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path3207"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3201"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path3222"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.5559966"
+     inkscape:cx="540.12744"
+     inkscape:cy="141.68651"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1173"
+     inkscape:window-x="1920"
+     inkscape:window-y="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2383"
+       visible="true"
+       enabled="true"
+       units="mm"
+       spacingx="1mm"
+       spacingy="1mm" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#d2d2d2;stroke:#000000;stroke-width:0.70866141999999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       id="rect2385"
+       width="70.866142"
+       height="53.149605"
+       x="230.31496"
+       y="272.83463"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#d2d2d2;stroke:#000000;stroke-width:0.82026153999999984;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       id="rect3157"
+       width="28.234856"
+       height="14.297836"
+       x="255.22971"
+       y="258.53677"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.35433071;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1.06299213,0.35433071;stroke-dashoffset:0"
+       d="M 318.89764,265.74801 L 88.582677,265.74801"
+       id="path3159"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.06299213, 0.35433071;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 318.89764,325.98423 L 88.582677,325.98423"
+       id="path3165"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.54299998;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 265.74803,265.74801 L 230.31496,166.53541 L 88.582677,201.96848"
+       id="path3167"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="230.31496"
+       y="205.5118"
+       id="text3169"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3171"
+         x="230.31496"
+         y="205.5118"
+         dy="0 2.4918809">l<tspan
+   style="font-size:9px"
+   id="tspan3175">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="152.3622"
+       y="201.96848"
+       id="text3177"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3179"
+         x="152.3622"
+         y="201.96848"
+         dy="0">l<tspan
+   style="font-size:9px"
+   id="tspan3181"
+   dy="2.4918809">2</tspan></tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1.0629921;stroke-linecap:square;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3196"
+       sodipodi:cx="265.74802"
+       sodipodi:cy="265.74802"
+       sodipodi:rx="56.692913"
+       sodipodi:ry="56.692913"
+       d="M 209.05929,265.05917 A 56.692913,56.692913 0 0 1 246.63417,212.37436"
+       sodipodi:start="3.1537435"
+       sodipodi:end="4.3685042"
+       sodipodi:open="true"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.35433071;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.70866142,0.35433071;stroke-dashoffset:0"
+       d="M 294.85377,347.24407 L 201.20922,85.039348"
+       id="path5543"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1.06299210000000000;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
+       id="path7142"
+       sodipodi:cx="230.31496"
+       sodipodi:cy="166.53542"
+       sodipodi:rx="56.692913"
+       sodipodi:ry="56.692913"
+       d="M 174.9392,178.68499 A 56.692913,56.692913 0 0 1 211.20111,113.16176"
+       sodipodi:start="2.9256125"
+       sodipodi:end="4.3685042"
+       sodipodi:open="true"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="187.79527"
+       y="152.36218"
+       id="text7677"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan7679"
+         x="187.79527"
+         y="152.36218"
+         dy="0">-ϴ<tspan
+   style="font-size:9px"
+   id="tspan7681"
+   dy="3.3130476">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="225.22835"
+       y="247.57477"
+       id="text7691"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan7693"
+         x="225.22835"
+         y="247.57477">ϴ<tspan
+   style="font-size:9px"
+   id="tspan7695"
+   dy="3.0369604">1</tspan></tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.06299213;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 88.582677,265.74801 L 88.582677,325.98423"
+       id="path7697"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="92.125984"
+       y="297.63779"
+       id="text8765"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan8767"
+         x="92.125984"
+         y="297.63779">b</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0629921;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 88.582677,201.96848 L 88.582677,265.74801"
+       id="path8771"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="91.611771"
+       y="239.67622"
+       id="text8773"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan8775"
+         x="91.611771"
+         y="239.67622">z'</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0629921;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 70.866142,201.96848 L 70.866142,325.98423"
+       id="path8777"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="60.124104"
+       y="267.09854"
+       id="text8779"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan8781"
+         x="60.124104"
+         y="267.09854">z</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 265.74803,325.98423 L 265.74803,95.669269"
+       id="path8783"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="-152.36218"
+       y="262.20471"
+       id="text9318"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan9320"
+         x="-152.36218"
+         y="262.20471">z axis</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0629921;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 265.74803,336.61415 L 88.582677,336.61415"
+       id="path9342"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="172.15935"
+       y="349.80096"
+       id="text9344"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Side View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan9346"
+         x="172.15935"
+         y="349.80096">d</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#d2d2d2;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2425"
+       sodipodi:cx="265.74802"
+       sodipodi:cy="574.01575"
+       sodipodi:rx="35.433071"
+       sodipodi:ry="35.433071"
+       d="M 301.17966,574.33341 A 35.433071,35.433071 0 1 1 301.18109,574.01575"
+       sodipodi:start="0.0089653938"
+       sodipodi:end="6.2831853"
+       sodipodi:open="true"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Top View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(0,-124)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 265.74803,450.01573 L 265.74803,609.46454"
+       id="path2427"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Top View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 265.74803,450.01573 L 35.433071,450.01573"
+       id="path2429"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Top View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.54330707;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 265.74803,450.01573 L 88.582677,556.31494"
+       id="path3225"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Top View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="-603.74799"
+       y="283.46457"
+       id="text3229"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Top View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3231"
+         x="-603.74799"
+         y="283.46457">y axis</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="42.040176"
+       y="442.44196"
+       id="text3233"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Top View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3235"
+         x="42.040176"
+         y="442.44196">x axis</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="177.16536"
+       y="475.73224"
+       id="text3237"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Top View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3239"
+         x="177.16536"
+         y="475.73224">ϴ<tspan
+   style="font-size:9px"
+   id="tspan3241"
+   dy="3.3197546">0</tspan></tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3245"
+       sodipodi:cx="265.74802"
+       sodipodi:cy="574.01575"
+       sodipodi:rx="106.29921"
+       sodipodi:ry="106.29921"
+       d="M 173.28332,626.45431 A 106.29921,106.29921 0 0 1 159.4501,573.49085"
+       sodipodi:start="2.6257007"
+       sodipodi:end="3.1465306"
+       sodipodi:open="true"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Top View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(0,-124)" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="53.439743"
+       y="563.97406"
+       id="text3780"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Top View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3782"
+         x="53.439743"
+         y="563.97406">(x,y)</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0629921;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 275.46457,469.73226 L 98.29922,576.03147"
+       id="path3784"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Top View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="191.46596"
+       y="534.06616"
+       id="text4852"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Robot Arm Top View.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4854"
+         x="191.46596"
+         y="534.06616">d</tspan></text>
+    <g
+       id="g4864"
+       transform="matrix(0.7860351,-0.6181819,0.6181819,0.7860351,-596.27746,319.49321)"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="871.6535"
+         x="124.01575"
+         height="21.259829"
+         width="177.16536"
+         id="rect4856"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         transform="translate(14.17761,12.616962)"
+         sodipodi:open="true"
+         sodipodi:end="12.525081"
+         sodipodi:start="6.2426442"
+         d="M 127.55467,869.66648 A 5.3149533,5.31499 0 1 1 127.55451,869.66251"
+         sodipodi:ry="5.31499"
+         sodipodi:rx="5.3149533"
+         sodipodi:cy="869.8819"
+         sodipodi:cx="122.24409"
+         id="path4858"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(166.53998,12.620937)"
+         sodipodi:open="true"
+         sodipodi:end="12.525081"
+         sodipodi:start="6.2426442"
+         d="M 127.55467,869.66648 A 5.3149533,5.31499 0 1 1 127.55451,869.66251"
+         sodipodi:ry="5.31499"
+         sodipodi:rx="5.3149533"
+         sodipodi:cy="869.8819"
+         sodipodi:cx="122.24409"
+         id="path4860"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         id="path4862"
+         d="M 70.866142,882.28344 L 354.33071,882.28344"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.70866142, 0.35433071;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4888"
+       transform="matrix(0.9747943,0.2231056,-0.2231056,0.9747943,255.81633,-125.23875)"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="942.51569"
+         x="124.01558"
+         height="21.259829"
+         width="177.16536"
+         id="rect4872"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         transform="translate(14.177445,83.479129)"
+         sodipodi:open="true"
+         sodipodi:end="12.525081"
+         sodipodi:start="6.2426442"
+         d="M 127.55467,869.66648 A 5.3149533,5.31499 0 1 1 127.55451,869.66251"
+         sodipodi:ry="5.31499"
+         sodipodi:rx="5.3149533"
+         sodipodi:cy="869.8819"
+         sodipodi:cx="122.24409"
+         id="path4874"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(178.95059,83.487079)"
+         sodipodi:open="true"
+         sodipodi:end="12.525081"
+         sodipodi:start="6.2426442"
+         d="M 127.55467,869.66648 A 5.3149533,5.31499 0 1 1 127.55451,869.66251"
+         sodipodi:ry="5.31499"
+         sodipodi:rx="5.3149533"
+         sodipodi:cy="869.8819"
+         sodipodi:cx="122.24409"
+         id="path4876"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         id="path4878"
+         d="M 70.865977,953.14561 L 354.33054,953.14561"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.70866142, 0.35433071;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         id="path4886"
+         d="M 124.95421,958.10082 L 124.95421,953.46382 L 125.9568,953.46382 C 126.50823,953.46382 126.9594,953.35103 126.9594,953.21317 C 126.9594,953.07531 126.50823,952.96252 125.9568,952.96252 L 124.95421,952.96252 L 124.95421,948.2002 L 124.95421,943.43787 L 212.55591,943.43787 L 300.15761,943.43787 L 300.15761,945.67379 L 300.15761,947.90971 L 299.37782,948.08099 C 298.21007,948.33747 296.26326,950.35168 295.87097,951.70928 C 295.69168,952.32963 295.42674,952.92179 295.28217,953.02518 C 295.10055,953.15506 295.10498,953.27127 295.29648,953.40116 C 295.4489,953.50455 295.64897,953.99912 295.74105,954.5002 C 296.0759,956.32244 298.33472,958.7221 299.71897,958.72616 C 300.10006,958.72727 300.15761,958.99051 300.15761,960.73263 L 300.15761,962.73782 L 212.55591,962.73782 L 124.95421,962.73782 L 124.95421,958.10082 z M 138.26879,958.59145 C 140.13715,957.93226 141.97671,955.67794 141.9928,954.02778 C 141.99789,953.5062 142.11136,953.46382 143.50221,953.46382 C 144.3377,953.46382 145.0061,953.35242 145.0061,953.21317 C 145.0061,953.07492 144.35504,952.96252 143.55419,952.96252 L 142.10229,952.96252 L 141.80439,951.84872 C 141.19416,949.56712 138.92163,947.85683 136.48405,947.84465 C 133.85472,947.83152 131.42884,949.691 131.05916,952.00294 C 130.91646,952.89524 130.84646,952.96252 130.06047,952.96252 C 129.59559,952.96252 129.21524,953.07531 129.21524,953.21317 C 129.21524,953.35103 129.55715,953.46382 129.97505,953.46382 C 130.39293,953.46382 130.77485,953.60481 130.8237,953.77713 C 130.87255,953.94945 131.04121,954.56472 131.19847,955.1444 C 131.58532,956.57025 132.57468,957.67798 134.09263,958.38483 C 135.56672,959.07126 136.74382,959.1295 138.26879,958.59145 L 138.26879,958.59145 z M 127.96199,953.21317 C 127.96199,953.07531 127.7928,952.96252 127.58602,952.96252 C 127.37923,952.96252 127.21005,953.07531 127.21005,953.21317 C 127.21005,953.35103 127.37923,953.46382 127.58602,953.46382 C 127.7928,953.46382 127.96199,953.35103 127.96199,953.21317 z M 128.96459,953.21317 C 128.96459,953.07531 128.7954,952.96252 128.58861,952.96252 C 128.38183,952.96252 128.21264,953.07531 128.21264,953.21317 C 128.21264,953.35103 128.38183,953.46382 128.58861,953.46382 C 128.7954,953.46382 128.96459,953.35103 128.96459,953.21317 z M 146.00869,953.21317 C 146.00869,953.07531 145.83951,952.96252 145.63272,952.96252 C 145.42594,952.96252 145.25675,953.07531 145.25675,953.21317 C 145.25675,953.35103 145.42594,953.46382 145.63272,953.46382 C 145.83951,953.46382 146.00869,953.35103 146.00869,953.21317 z M 149.26713,953.21317 C 149.26713,953.07392 148.59872,952.96252 147.76323,952.96252 C 146.92775,952.96252 146.25934,953.07392 146.25934,953.21317 C 146.25934,953.35242 146.92775,953.46382 147.76323,953.46382 C 148.59872,953.46382 149.26713,953.35242 149.26713,953.21317 z M 150.26972,953.21317 C 150.26972,953.07531 150.10053,952.96252 149.89375,952.96252 C 149.68696,952.96252 149.51778,953.07531 149.51778,953.21317 C 149.51778,953.35103 149.68696,953.46382 149.89375,953.46382 C 150.10053,953.46382 150.26972,953.35103 150.26972,953.21317 z M 153.52815,953.21317 C 153.52815,953.07392 152.85975,952.96252 152.02426,952.96252 C 151.18877,952.96252 150.52037,953.07392 150.52037,953.21317 C 150.52037,953.35242 151.18877,953.46382 152.02426,953.46382 C 152.85975,953.46382 153.52815,953.35242 153.52815,953.21317 z M 154.53075,953.21317 C 154.53075,953.07531 154.36156,952.96252 154.15478,952.96252 C 153.94799,952.96252 153.7788,953.07531 153.7788,953.21317 C 153.7788,953.35103 153.94799,953.46382 154.15478,953.46382 C 154.36156,953.46382 154.53075,953.35103 154.53075,953.21317 z M 157.78918,953.21441 C 157.78918,953.07365 157.12569,952.96252 156.28529,952.96252 C 155.45815,952.96252 154.7814,953.06057 154.7814,953.18041 C 154.7814,953.30025 155.45815,953.41359 156.28529,953.43229 C 157.14825,953.45179 157.78918,953.35893 157.78918,953.2144 L 157.78918,953.21441 z M 158.79178,953.21317 C 158.79178,953.07531 158.62259,952.96252 158.4158,952.96252 C 158.20902,952.96252 158.03983,953.07531 158.03983,953.21317 C 158.03983,953.35103 158.20902,953.46382 158.4158,953.46382 C 158.62259,953.46382 158.79178,953.35103 158.79178,953.21317 z M 159.79437,953.21317 C 159.79437,953.07531 159.62518,952.96252 159.4184,952.96252 C 159.21161,952.96252 159.04242,953.07531 159.04242,953.21317 C 159.04242,953.35103 159.21161,953.46382 159.4184,953.46382 C 159.62518,953.46382 159.79437,953.35103 159.79437,953.21317 z M 163.0528,953.1804 C 163.0528,953.06057 162.37605,952.96252 161.54891,952.96252 C 160.70851,952.96252 160.04502,953.07365 160.04502,953.2144 C 160.04502,953.35893 160.68595,953.45179 161.54891,953.43229 C 162.37605,953.41359 163.0528,953.30024 163.0528,953.18041 L 163.0528,953.1804 z M 164.0554,953.21317 C 164.0554,953.07531 163.88621,952.96252 163.67942,952.96252 C 163.47264,952.96252 163.30345,953.07531 163.30345,953.21317 C 163.30345,953.35103 163.47264,953.46382 163.67942,953.46382 C 163.88621,953.46382 164.0554,953.35103 164.0554,953.21317 z M 167.31383,953.21317 C 167.31383,953.07392 166.64542,952.96252 165.80994,952.96252 C 164.97445,952.96252 164.30605,953.07392 164.30605,953.21317 C 164.30605,953.35242 164.97445,953.46382 165.80994,953.46382 C 166.64542,953.46382 167.31383,953.35242 167.31383,953.21317 z M 168.31642,953.21317 C 168.31642,953.07531 168.14724,952.96252 167.94045,952.96252 C 167.73367,952.96252 167.56448,953.07531 167.56448,953.21317 C 167.56448,953.35103 167.73367,953.46382 167.94045,953.46382 C 168.14724,953.46382 168.31642,953.35103 168.31642,953.21317 z M 171.57486,953.21317 C 171.57486,953.07392 170.90645,952.96252 170.07096,952.96252 C 169.23548,952.96252 168.56707,953.07392 168.56707,953.21317 C 168.56707,953.35242 169.23548,953.46382 170.07096,953.46382 C 170.90645,953.46382 171.57486,953.35242 171.57486,953.21317 z M 172.57745,953.21317 C 172.57745,953.07531 172.40826,952.96252 172.20148,952.96252 C 171.99469,952.96252 171.8255,953.07531 171.8255,953.21317 C 171.8255,953.35103 171.99469,953.46382 172.20148,953.46382 C 172.40826,953.46382 172.57745,953.35103 172.57745,953.21317 z M 175.83588,953.21317 C 175.83588,953.07392 175.16748,952.96252 174.33199,952.96252 C 173.4965,952.96252 172.8281,953.07392 172.8281,953.21317 C 172.8281,953.35242 173.4965,953.46382 174.33199,953.46382 C 175.16748,953.46382 175.83588,953.35242 175.83588,953.21317 z M 176.83848,953.21317 C 176.83848,953.07531 176.66929,952.96252 176.4625,952.96252 C 176.25572,952.96252 176.08653,953.07531 176.08653,953.21317 C 176.08653,953.35103 176.25572,953.46382 176.4625,953.46382 C 176.66929,953.46382 176.83848,953.35103 176.83848,953.21317 z M 180.09691,953.21317 C 180.09691,953.07392 179.4285,952.96252 178.59302,952.96252 C 177.75753,952.96252 177.08913,953.07392 177.08913,953.21317 C 177.08913,953.35242 177.75753,953.46382 178.59302,953.46382 C 179.4285,953.46382 180.09691,953.35242 180.09691,953.21317 z M 181.0995,953.21317 C 181.0995,953.07531 180.93032,952.96252 180.72353,952.96252 C 180.51675,952.96252 180.34756,953.07531 180.34756,953.21317 C 180.34756,953.35103 180.51675,953.46382 180.72353,953.46382 C 180.93032,953.46382 181.0995,953.35103 181.0995,953.21317 z M 184.35794,953.21317 C 184.35794,953.07392 183.68953,952.96252 182.85404,952.96252 C 182.01856,952.96252 181.35015,953.07392 181.35015,953.21317 C 181.35015,953.35242 182.01856,953.46382 182.85404,953.46382 C 183.68953,953.46382 184.35794,953.35242 184.35794,953.21317 z M 185.36053,953.21317 C 185.36053,953.07531 185.19134,952.96252 184.98456,952.96252 C 184.77777,952.96252 184.60859,953.07531 184.60859,953.21317 C 184.60859,953.35103 184.77777,953.46382 184.98456,953.46382 C 185.19134,953.46382 185.36053,953.35103 185.36053,953.21317 z M 188.61896,953.21441 C 188.61896,953.07365 187.95547,952.96252 187.11507,952.96252 C 186.28793,952.96252 185.61118,953.06057 185.61118,953.18041 C 185.61118,953.30025 186.28793,953.41359 187.11507,953.43229 C 187.97803,953.45179 188.61896,953.35893 188.61896,953.2144 L 188.61896,953.21441 z M 189.62156,953.21317 C 189.62156,953.07531 189.45237,952.96252 189.24559,952.96252 C 189.0388,952.96252 188.86961,953.07531 188.86961,953.21317 C 188.86961,953.35103 189.0388,953.46382 189.24559,953.46382 C 189.45237,953.46382 189.62156,953.35103 189.62156,953.21317 z M 190.62415,953.21317 C 190.62415,953.07531 190.45496,952.96252 190.24818,952.96252 C 190.04139,952.96252 189.87221,953.07531 189.87221,953.21317 C 189.87221,953.35103 190.04139,953.46382 190.24818,953.46382 C 190.45496,953.46382 190.62415,953.35103 190.62415,953.21317 z M 193.88258,953.21317 C 193.88258,953.07392 193.21418,952.96252 192.37869,952.96252 C 191.54321,952.96252 190.8748,953.07392 190.8748,953.21317 C 190.8748,953.35242 191.54321,953.46382 192.37869,953.46382 C 193.21418,953.46382 193.88258,953.35242 193.88258,953.21317 z M 194.88518,953.21317 C 194.88518,953.07531 194.71599,952.96252 194.50921,952.96252 C 194.30242,952.96252 194.13323,953.07531 194.13323,953.21317 C 194.13323,953.35103 194.30242,953.46382 194.50921,953.46382 C 194.71599,953.46382 194.88518,953.35103 194.88518,953.21317 z M 198.14361,953.21317 C 198.14361,953.07392 197.47521,952.96252 196.63972,952.96252 C 195.80423,952.96252 195.13583,953.07392 195.13583,953.21317 C 195.13583,953.35242 195.80423,953.46382 196.63972,953.46382 C 197.47521,953.46382 198.14361,953.35242 198.14361,953.21317 z M 199.14621,953.21317 C 199.14621,953.07531 198.97702,952.96252 198.77023,952.96252 C 198.56345,952.96252 198.39426,953.07531 198.39426,953.21317 C 198.39426,953.35103 198.56345,953.46382 198.77023,953.46382 C 198.97702,953.46382 199.14621,953.35103 199.14621,953.21317 z M 202.40464,953.21317 C 202.40464,953.07392 201.73623,952.96252 200.90075,952.96252 C 200.06526,952.96252 199.39686,953.07392 199.39686,953.21317 C 199.39686,953.35242 200.06526,953.46382 200.90075,953.46382 C 201.73623,953.46382 202.40464,953.35242 202.40464,953.21317 z M 203.40723,953.21317 C 203.40723,953.07531 203.23805,952.96252 203.03126,952.96252 C 202.82448,952.96252 202.65529,953.07531 202.65529,953.21317 C 202.65529,953.35103 202.82448,953.46382 203.03126,953.46382 C 203.23805,953.46382 203.40723,953.35103 203.40723,953.21317 z M 206.66567,953.21317 C 206.66567,953.07392 205.99726,952.96252 205.16177,952.96252 C 204.32629,952.96252 203.65788,953.07392 203.65788,953.21317 C 203.65788,953.35242 204.32629,953.46382 205.16177,953.46382 C 205.99726,953.46382 206.66567,953.35242 206.66567,953.21317 z M 207.66826,953.21317 C 207.66826,953.07531 207.49907,952.96252 207.29229,952.96252 C 207.0855,952.96252 206.91631,953.07531 206.91631,953.21317 C 206.91631,953.35103 207.0855,953.46382 207.29229,953.46382 C 207.49907,953.46382 207.66826,953.35103 207.66826,953.21317 z M 210.92669,953.21317 C 210.92669,953.07392 210.25829,952.96252 209.4228,952.96252 C 208.58731,952.96252 207.91891,953.07392 207.91891,953.21317 C 207.91891,953.35242 208.58731,953.46382 209.4228,953.46382 C 210.25829,953.46382 210.92669,953.35242 210.92669,953.21317 z M 211.92929,953.21317 C 211.92929,953.07531 211.7601,952.96252 211.55331,952.96252 C 211.34653,952.96252 211.17734,953.07531 211.17734,953.21317 C 211.17734,953.35103 211.34653,953.46382 211.55331,953.46382 C 211.7601,953.46382 211.92929,953.35103 211.92929,953.21317 z M 215.18772,953.21317 C 215.18772,953.07392 214.51931,952.96252 213.68383,952.96252 C 212.84834,952.96252 212.17994,953.07392 212.17994,953.21317 C 212.17994,953.35242 212.84834,953.46382 213.68383,953.46382 C 214.51931,953.46382 215.18772,953.35242 215.18772,953.21317 z M 216.19031,953.21317 C 216.19031,953.07531 216.02113,952.96252 215.81434,952.96252 C 215.60756,952.96252 215.43837,953.07531 215.43837,953.21317 C 215.43837,953.35103 215.60756,953.46382 215.81434,953.46382 C 216.02113,953.46382 216.19031,953.35103 216.19031,953.21317 z M 217.19291,953.21317 C 217.19291,953.07531 217.02372,952.96252 216.81694,952.96252 C 216.61015,952.96252 216.44096,953.07531 216.44096,953.21317 C 216.44096,953.35103 216.61015,953.46382 216.81694,953.46382 C 217.02372,953.46382 217.19291,953.35103 217.19291,953.21317 z M 220.45134,953.1804 C 220.45134,953.06057 219.77459,952.96252 218.94745,952.96252 C 218.10705,952.96252 217.44356,953.07365 217.44356,953.2144 C 217.44356,953.35893 218.08449,953.45179 218.94745,953.43229 C 219.77459,953.41359 220.45134,953.30024 220.45134,953.18041 L 220.45134,953.1804 z M 221.45394,953.21317 C 221.45394,953.07531 221.28475,952.96252 221.07796,952.96252 C 220.87118,952.96252 220.70199,953.07531 220.70199,953.21317 C 220.70199,953.35103 220.87118,953.46382 221.07796,953.46382 C 221.28475,953.46382 221.45394,953.35103 221.45394,953.21317 z M 224.71237,953.21317 C 224.71237,953.07392 224.04396,952.96252 223.20848,952.96252 C 222.37299,952.96252 221.70458,953.07392 221.70458,953.21317 C 221.70458,953.35242 222.37299,953.46382 223.20848,953.46382 C 224.04396,953.46382 224.71237,953.35242 224.71237,953.21317 z M 225.71496,953.21317 C 225.71496,953.07531 225.54577,952.96252 225.33899,952.96252 C 225.1322,952.96252 224.96302,953.07531 224.96302,953.21317 C 224.96302,953.35103 225.1322,953.46382 225.33899,953.46382 C 225.54577,953.46382 225.71496,953.35103 225.71496,953.21317 z M 228.97339,953.21317 C 228.97339,953.07392 228.30499,952.96252 227.4695,952.96252 C 226.63402,952.96252 225.96561,953.07392 225.96561,953.21317 C 225.96561,953.35242 226.63402,953.46382 227.4695,953.46382 C 228.30499,953.46382 228.97339,953.35242 228.97339,953.21317 z M 229.97599,953.21317 C 229.97599,953.07531 229.8068,952.96252 229.60002,952.96252 C 229.39323,952.96252 229.22404,953.07531 229.22404,953.21317 C 229.22404,953.35103 229.39323,953.46382 229.60002,953.46382 C 229.8068,953.46382 229.97599,953.35103 229.97599,953.21317 z M 233.23442,953.21317 C 233.23442,953.07392 232.56602,952.96252 231.73053,952.96252 C 230.89504,952.96252 230.22664,953.07392 230.22664,953.21317 C 230.22664,953.35242 230.89504,953.46382 231.73053,953.46382 C 232.56602,953.46382 233.23442,953.35242 233.23442,953.21317 z M 234.23702,953.21317 C 234.23702,953.07531 234.06783,952.96252 233.86104,952.96252 C 233.65426,952.96252 233.48507,953.07531 233.48507,953.21317 C 233.48507,953.35103 233.65426,953.46382 233.86104,953.46382 C 234.06783,953.46382 234.23702,953.35103 234.23702,953.21317 z M 237.49545,953.21317 C 237.49545,953.07392 236.82704,952.96252 235.99156,952.96252 C 235.15607,952.96252 234.48766,953.07392 234.48766,953.21317 C 234.48766,953.35242 235.15607,953.46382 235.99156,953.46382 C 236.82704,953.46382 237.49545,953.35242 237.49545,953.21317 z M 238.49804,953.21317 C 238.49804,953.07531 238.32886,952.96252 238.12207,952.96252 C 237.91529,952.96252 237.7461,953.07531 237.7461,953.21317 C 237.7461,953.35103 237.91529,953.46382 238.12207,953.46382 C 238.32886,953.46382 238.49804,953.35103 238.49804,953.21317 z M 241.75648,953.21317 C 241.75648,953.07392 241.08807,952.96252 240.25258,952.96252 C 239.4171,952.96252 238.74869,953.07392 238.74869,953.21317 C 238.74869,953.35242 239.4171,953.46382 240.25258,953.46382 C 241.08807,953.46382 241.75648,953.35242 241.75648,953.21317 z M 242.75907,953.21317 C 242.75907,953.07531 242.58988,952.96252 242.3831,952.96252 C 242.17631,952.96252 242.00712,953.07531 242.00712,953.21317 C 242.00712,953.35103 242.17631,953.46382 242.3831,953.46382 C 242.58988,953.46382 242.75907,953.35103 242.75907,953.21317 z M 246.0175,953.21441 C 246.0175,953.07365 245.35401,952.96252 244.51361,952.96252 C 243.68647,952.96252 243.00972,953.06057 243.00972,953.18041 C 243.00972,953.30025 243.68647,953.41359 244.51361,953.43229 C 245.37657,953.45179 246.0175,953.35893 246.0175,953.2144 L 246.0175,953.21441 z M 247.0201,953.21317 C 247.0201,953.07531 246.85091,952.96252 246.64412,952.96252 C 246.43734,952.96252 246.26815,953.07531 246.26815,953.21317 C 246.26815,953.35103 246.43734,953.46382 246.64412,953.46382 C 246.85091,953.46382 247.0201,953.35103 247.0201,953.21317 z M 248.02269,953.21317 C 248.02269,953.07531 247.8535,952.96252 247.64672,952.96252 C 247.43993,952.96252 247.27075,953.07531 247.27075,953.21317 C 247.27075,953.35103 247.43993,953.46382 247.64672,953.46382 C 247.8535,953.46382 248.02269,953.35103 248.02269,953.21317 z M 251.28112,953.1804 C 251.28112,953.06057 250.60437,952.96252 249.77723,952.96252 C 248.93683,952.96252 248.27334,953.07365 248.27334,953.2144 C 248.27334,953.35893 248.91427,953.45179 249.77723,953.43229 C 250.60437,953.41359 251.28112,953.30024 251.28112,953.18041 L 251.28112,953.1804 z M 252.28372,953.21317 C 252.28372,953.07531 252.11453,952.96252 251.90775,952.96252 C 251.70096,952.96252 251.53177,953.07531 251.53177,953.21317 C 251.53177,953.35103 251.70096,953.46382 251.90775,953.46382 C 252.11453,953.46382 252.28372,953.35103 252.28372,953.21317 z M 255.54215,953.21317 C 255.54215,953.07392 254.87375,952.96252 254.03826,952.96252 C 253.20277,952.96252 252.53437,953.07392 252.53437,953.21317 C 252.53437,953.35242 253.20277,953.46382 254.03826,953.46382 C 254.87375,953.46382 255.54215,953.35242 255.54215,953.21317 z M 256.54475,953.21317 C 256.54475,953.07531 256.37556,952.96252 256.16877,952.96252 C 255.96199,952.96252 255.7928,953.07531 255.7928,953.21317 C 255.7928,953.35103 255.96199,953.46382 256.16877,953.46382 C 256.37556,953.46382 256.54475,953.35103 256.54475,953.21317 z M 259.80318,953.21317 C 259.80318,953.07392 259.13477,952.96252 258.29929,952.96252 C 257.4638,952.96252 256.79539,953.07392 256.79539,953.21317 C 256.79539,953.35242 257.4638,953.46382 258.29929,953.46382 C 259.13477,953.46382 259.80318,953.35242 259.80318,953.21317 z M 260.80577,953.21317 C 260.80577,953.07531 260.63658,952.96252 260.4298,952.96252 C 260.22301,952.96252 260.05383,953.07531 260.05383,953.21317 C 260.05383,953.35103 260.22301,953.46382 260.4298,953.46382 C 260.63658,953.46382 260.80577,953.35103 260.80577,953.21317 z M 264.0642,953.21317 C 264.0642,953.07392 263.3958,952.96252 262.56031,952.96252 C 261.72483,952.96252 261.05642,953.07392 261.05642,953.21317 C 261.05642,953.35242 261.72483,953.46382 262.56031,953.46382 C 263.3958,953.46382 264.0642,953.35242 264.0642,953.21317 z M 265.0668,953.21317 C 265.0668,953.07531 264.89761,952.96252 264.69083,952.96252 C 264.48404,952.96252 264.31485,953.07531 264.31485,953.21317 C 264.31485,953.35103 264.48404,953.46382 264.69083,953.46382 C 264.89761,953.46382 265.0668,953.35103 265.0668,953.21317 z M 268.32523,953.21317 C 268.32523,953.07392 267.65683,952.96252 266.82134,952.96252 C 265.98585,952.96252 265.31745,953.07392 265.31745,953.21317 C 265.31745,953.35242 265.98585,953.46382 266.82134,953.46382 C 267.65683,953.46382 268.32523,953.35242 268.32523,953.21317 z M 269.32783,953.21317 C 269.32783,953.07531 269.15864,952.96252 268.95185,952.96252 C 268.74507,952.96252 268.57588,953.07531 268.57588,953.21317 C 268.57588,953.35103 268.74507,953.46382 268.95185,953.46382 C 269.15864,953.46382 269.32783,953.35103 269.32783,953.21317 z M 272.58626,953.21317 C 272.58626,953.07392 271.91785,952.96252 271.08237,952.96252 C 270.24688,952.96252 269.57847,953.07392 269.57847,953.21317 C 269.57847,953.35242 270.24688,953.46382 271.08237,953.46382 C 271.91785,953.46382 272.58626,953.35242 272.58626,953.21317 z M 273.58885,953.21317 C 273.58885,953.07531 273.41967,952.96252 273.21288,952.96252 C 273.00609,952.96252 272.83691,953.07531 272.83691,953.21317 C 272.83691,953.35103 273.00609,953.46382 273.21288,953.46382 C 273.41967,953.46382 273.58885,953.35103 273.58885,953.21317 z M 276.84729,953.21441 C 276.84729,953.07365 276.18379,952.96252 275.34339,952.96252 C 274.51625,952.96252 273.8395,953.06057 273.8395,953.18041 C 273.8395,953.30025 274.51625,953.41359 275.34339,953.43229 C 276.20635,953.45179 276.84729,953.35893 276.84729,953.2144 L 276.84729,953.21441 z M 277.84988,953.21317 C 277.84988,953.07531 277.68069,952.96252 277.47391,952.96252 C 277.26712,952.96252 277.09793,953.07531 277.09793,953.21317 C 277.09793,953.35103 277.26712,953.46382 277.47391,953.46382 C 277.68069,953.46382 277.84988,953.35103 277.84988,953.21317 z M 278.85247,953.21317 C 278.85247,953.07531 278.68329,952.96252 278.4765,952.96252 C 278.26972,952.96252 278.10053,953.07531 278.10053,953.21317 C 278.10053,953.35103 278.26972,953.46382 278.4765,953.46382 C 278.68329,953.46382 278.85247,953.35103 278.85247,953.21317 z M 282.11091,953.21317 C 282.11091,953.07392 281.4425,952.96252 280.60701,952.96252 C 279.77153,952.96252 279.10312,953.07392 279.10312,953.21317 C 279.10312,953.35242 279.77153,953.46382 280.60701,953.46382 C 281.4425,953.46382 282.11091,953.35242 282.11091,953.21317 z M 283.1135,953.21317 C 283.1135,953.07531 282.94431,952.96252 282.73753,952.96252 C 282.53074,952.96252 282.36156,953.07531 282.36156,953.21317 C 282.36156,953.35103 282.53074,953.46382 282.73753,953.46382 C 282.94431,953.46382 283.1135,953.35103 283.1135,953.21317 z M 286.37193,953.21317 C 286.37193,953.07392 285.70353,952.96252 284.86804,952.96252 C 284.03255,952.96252 283.36415,953.07392 283.36415,953.21317 C 283.36415,953.35242 284.03255,953.46382 284.86804,953.46382 C 285.70353,953.46382 286.37193,953.35242 286.37193,953.21317 z M 287.37453,953.21317 C 287.37453,953.07531 287.20534,952.96252 286.99856,952.96252 C 286.79177,952.96252 286.62258,953.07531 286.62258,953.21317 C 286.62258,953.35103 286.79177,953.46382 286.99856,953.46382 C 287.20534,953.46382 287.37453,953.35103 287.37453,953.21317 z M 290.63296,953.21317 C 290.63296,953.07392 289.96456,952.96252 289.12907,952.96252 C 288.29358,952.96252 287.62518,953.07392 287.62518,953.21317 C 287.62518,953.35242 288.29358,953.46382 289.12907,953.46382 C 289.96456,953.46382 290.63296,953.35242 290.63296,953.21317 z M 291.63556,953.21317 C 291.63556,953.07531 291.46637,952.96252 291.25958,952.96252 C 291.0528,952.96252 290.88361,953.07531 290.88361,953.21317 C 290.88361,953.35103 291.0528,953.46382 291.25958,953.46382 C 291.46637,953.46382 291.63556,953.35103 291.63556,953.21317 z M 294.89399,953.21317 C 294.89399,953.07392 294.22558,952.96252 293.3901,952.96252 C 292.55461,952.96252 291.8862,953.07392 291.8862,953.21317 C 291.8862,953.35242 292.55461,953.46382 293.3901,953.46382 C 294.22558,953.46382 294.89399,953.35242 294.89399,953.21317 z"
+         style="fill:#d1d1d1;fill-opacity:1;stroke:#000000;stroke-width:0.08881252;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.17762502, 0.08881251;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 56.3622,928.34643 L 56.3622,786.61415"
+       id="path4895"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="-836.6048"
+       y="51.125488"
+       id="text4897"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan4899"
+         x="-836.6048"
+         y="51.125488">y axis</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 56.3622,928.34643 L 268.96063,928.34643"
+       id="path4901"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="222.89764"
+       y="946.06299"
+       id="text4903"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4905"
+         x="222.89764"
+         y="946.06299">x axis</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1.06299996;stroke-linecap:square;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4907"
+       sodipodi:cx="265.74802"
+       sodipodi:cy="265.74802"
+       sodipodi:rx="56.692913"
+       sodipodi:ry="56.692913"
+       d="M 310.19612,230.55636 A 56.692913,56.692913 0 0 1 322.43924,265.31088"
+       sodipodi:start="5.6134969"
+       sodipodi:end="6.2754746"
+       sodipodi:open="true"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(-209.03134,662.70064)" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="116.59842"
+       y="914.17322"
+       id="text5975"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5977"
+         x="116.59842"
+         y="914.17322">ϴ<tspan
+   style="font-size:9px"
+   id="tspan5979"
+   dy="3.0369604">1</tspan></tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1.0629921;stroke-linecap:square;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5981"
+       sodipodi:cx="265.74802"
+       sodipodi:cy="265.74802"
+       sodipodi:rx="56.692913"
+       sodipodi:ry="56.692913"
+       d="M 310.54818,231.00566 A 56.692913,56.692913 0 0 1 320.92912,278.75311"
+       sodipodi:start="5.6235653"
+       sodipodi:end="6.5146418"
+       sodipodi:open="true"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(-89.417868,568.11796)" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="205.18109"
+       y="825.59052"
+       id="text5983"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5985"
+         x="205.18109"
+         y="825.59052"
+         dy="0">-ϴ<tspan
+   style="font-size:9px"
+   id="tspan5987"
+   dy="3.3130476">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="171.26944"
+       y="982.51874"
+       id="text5989"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5991"
+         x="171.26944"
+         y="982.51874">(a)</tspan></text>
+    <g
+       id="g5993"
+       transform="matrix(0.9575178,-0.2883744,0.2883744,0.9575178,57.855027,122.80978)"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="871.6535"
+         x="124.01575"
+         height="21.259829"
+         width="177.16536"
+         id="rect5995"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         transform="translate(14.17761,12.616962)"
+         sodipodi:open="true"
+         sodipodi:end="12.525081"
+         sodipodi:start="6.2426442"
+         d="M 127.55467,869.66648 A 5.3149533,5.31499 0 1 1 127.55451,869.66251"
+         sodipodi:ry="5.31499"
+         sodipodi:rx="5.3149533"
+         sodipodi:cy="869.8819"
+         sodipodi:cx="122.24409"
+         id="path5997"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(166.53998,12.620937)"
+         sodipodi:open="true"
+         sodipodi:end="12.525081"
+         sodipodi:start="6.2426442"
+         d="M 127.55467,869.66648 A 5.3149533,5.31499 0 1 1 127.55451,869.66251"
+         sodipodi:ry="5.31499"
+         sodipodi:rx="5.3149533"
+         sodipodi:cy="869.8819"
+         sodipodi:cx="122.24409"
+         id="path5999"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         id="path6001"
+         d="M 70.866142,882.28344 L 354.33071,882.28344"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.70866142, 0.35433071;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g6003"
+       transform="matrix(0.6566624,-0.7541847,0.7541847,0.6566624,-219.60212,361.37544)"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="942.51569"
+         x="124.01558"
+         height="21.259829"
+         width="177.16536"
+         id="rect6005"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.77165353;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         transform="translate(14.177445,83.479129)"
+         sodipodi:open="true"
+         sodipodi:end="12.525081"
+         sodipodi:start="6.2426442"
+         d="M 127.55467,869.66648 A 5.3149533,5.31499 0 1 1 127.55451,869.66251"
+         sodipodi:ry="5.31499"
+         sodipodi:rx="5.3149533"
+         sodipodi:cy="869.8819"
+         sodipodi:cx="122.24409"
+         id="path6007"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(178.95059,83.487079)"
+         sodipodi:open="true"
+         sodipodi:end="12.525081"
+         sodipodi:start="6.2426442"
+         d="M 127.55467,869.66648 A 5.3149533,5.31499 0 1 1 127.55451,869.66251"
+         sodipodi:ry="5.31499"
+         sodipodi:rx="5.3149533"
+         sodipodi:cy="869.8819"
+         sodipodi:cx="122.24409"
+         id="path6009"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         id="path6011"
+         d="M 70.865977,953.14561 L 354.33054,953.14561"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.35433072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.70866142, 0.35433071;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         id="path6013"
+         d="M 124.95421,958.10082 L 124.95421,953.46382 L 125.9568,953.46382 C 126.50823,953.46382 126.9594,953.35103 126.9594,953.21317 C 126.9594,953.07531 126.50823,952.96252 125.9568,952.96252 L 124.95421,952.96252 L 124.95421,948.2002 L 124.95421,943.43787 L 212.55591,943.43787 L 300.15761,943.43787 L 300.15761,945.67379 L 300.15761,947.90971 L 299.37782,948.08099 C 298.21007,948.33747 296.26326,950.35168 295.87097,951.70928 C 295.69168,952.32963 295.42674,952.92179 295.28217,953.02518 C 295.10055,953.15506 295.10498,953.27127 295.29648,953.40116 C 295.4489,953.50455 295.64897,953.99912 295.74105,954.5002 C 296.0759,956.32244 298.33472,958.7221 299.71897,958.72616 C 300.10006,958.72727 300.15761,958.99051 300.15761,960.73263 L 300.15761,962.73782 L 212.55591,962.73782 L 124.95421,962.73782 L 124.95421,958.10082 z M 138.26879,958.59145 C 140.13715,957.93226 141.97671,955.67794 141.9928,954.02778 C 141.99789,953.5062 142.11136,953.46382 143.50221,953.46382 C 144.3377,953.46382 145.0061,953.35242 145.0061,953.21317 C 145.0061,953.07492 144.35504,952.96252 143.55419,952.96252 L 142.10229,952.96252 L 141.80439,951.84872 C 141.19416,949.56712 138.92163,947.85683 136.48405,947.84465 C 133.85472,947.83152 131.42884,949.691 131.05916,952.00294 C 130.91646,952.89524 130.84646,952.96252 130.06047,952.96252 C 129.59559,952.96252 129.21524,953.07531 129.21524,953.21317 C 129.21524,953.35103 129.55715,953.46382 129.97505,953.46382 C 130.39293,953.46382 130.77485,953.60481 130.8237,953.77713 C 130.87255,953.94945 131.04121,954.56472 131.19847,955.1444 C 131.58532,956.57025 132.57468,957.67798 134.09263,958.38483 C 135.56672,959.07126 136.74382,959.1295 138.26879,958.59145 L 138.26879,958.59145 z M 127.96199,953.21317 C 127.96199,953.07531 127.7928,952.96252 127.58602,952.96252 C 127.37923,952.96252 127.21005,953.07531 127.21005,953.21317 C 127.21005,953.35103 127.37923,953.46382 127.58602,953.46382 C 127.7928,953.46382 127.96199,953.35103 127.96199,953.21317 z M 128.96459,953.21317 C 128.96459,953.07531 128.7954,952.96252 128.58861,952.96252 C 128.38183,952.96252 128.21264,953.07531 128.21264,953.21317 C 128.21264,953.35103 128.38183,953.46382 128.58861,953.46382 C 128.7954,953.46382 128.96459,953.35103 128.96459,953.21317 z M 146.00869,953.21317 C 146.00869,953.07531 145.83951,952.96252 145.63272,952.96252 C 145.42594,952.96252 145.25675,953.07531 145.25675,953.21317 C 145.25675,953.35103 145.42594,953.46382 145.63272,953.46382 C 145.83951,953.46382 146.00869,953.35103 146.00869,953.21317 z M 149.26713,953.21317 C 149.26713,953.07392 148.59872,952.96252 147.76323,952.96252 C 146.92775,952.96252 146.25934,953.07392 146.25934,953.21317 C 146.25934,953.35242 146.92775,953.46382 147.76323,953.46382 C 148.59872,953.46382 149.26713,953.35242 149.26713,953.21317 z M 150.26972,953.21317 C 150.26972,953.07531 150.10053,952.96252 149.89375,952.96252 C 149.68696,952.96252 149.51778,953.07531 149.51778,953.21317 C 149.51778,953.35103 149.68696,953.46382 149.89375,953.46382 C 150.10053,953.46382 150.26972,953.35103 150.26972,953.21317 z M 153.52815,953.21317 C 153.52815,953.07392 152.85975,952.96252 152.02426,952.96252 C 151.18877,952.96252 150.52037,953.07392 150.52037,953.21317 C 150.52037,953.35242 151.18877,953.46382 152.02426,953.46382 C 152.85975,953.46382 153.52815,953.35242 153.52815,953.21317 z M 154.53075,953.21317 C 154.53075,953.07531 154.36156,952.96252 154.15478,952.96252 C 153.94799,952.96252 153.7788,953.07531 153.7788,953.21317 C 153.7788,953.35103 153.94799,953.46382 154.15478,953.46382 C 154.36156,953.46382 154.53075,953.35103 154.53075,953.21317 z M 157.78918,953.21441 C 157.78918,953.07365 157.12569,952.96252 156.28529,952.96252 C 155.45815,952.96252 154.7814,953.06057 154.7814,953.18041 C 154.7814,953.30025 155.45815,953.41359 156.28529,953.43229 C 157.14825,953.45179 157.78918,953.35893 157.78918,953.2144 L 157.78918,953.21441 z M 158.79178,953.21317 C 158.79178,953.07531 158.62259,952.96252 158.4158,952.96252 C 158.20902,952.96252 158.03983,953.07531 158.03983,953.21317 C 158.03983,953.35103 158.20902,953.46382 158.4158,953.46382 C 158.62259,953.46382 158.79178,953.35103 158.79178,953.21317 z M 159.79437,953.21317 C 159.79437,953.07531 159.62518,952.96252 159.4184,952.96252 C 159.21161,952.96252 159.04242,953.07531 159.04242,953.21317 C 159.04242,953.35103 159.21161,953.46382 159.4184,953.46382 C 159.62518,953.46382 159.79437,953.35103 159.79437,953.21317 z M 163.0528,953.1804 C 163.0528,953.06057 162.37605,952.96252 161.54891,952.96252 C 160.70851,952.96252 160.04502,953.07365 160.04502,953.2144 C 160.04502,953.35893 160.68595,953.45179 161.54891,953.43229 C 162.37605,953.41359 163.0528,953.30024 163.0528,953.18041 L 163.0528,953.1804 z M 164.0554,953.21317 C 164.0554,953.07531 163.88621,952.96252 163.67942,952.96252 C 163.47264,952.96252 163.30345,953.07531 163.30345,953.21317 C 163.30345,953.35103 163.47264,953.46382 163.67942,953.46382 C 163.88621,953.46382 164.0554,953.35103 164.0554,953.21317 z M 167.31383,953.21317 C 167.31383,953.07392 166.64542,952.96252 165.80994,952.96252 C 164.97445,952.96252 164.30605,953.07392 164.30605,953.21317 C 164.30605,953.35242 164.97445,953.46382 165.80994,953.46382 C 166.64542,953.46382 167.31383,953.35242 167.31383,953.21317 z M 168.31642,953.21317 C 168.31642,953.07531 168.14724,952.96252 167.94045,952.96252 C 167.73367,952.96252 167.56448,953.07531 167.56448,953.21317 C 167.56448,953.35103 167.73367,953.46382 167.94045,953.46382 C 168.14724,953.46382 168.31642,953.35103 168.31642,953.21317 z M 171.57486,953.21317 C 171.57486,953.07392 170.90645,952.96252 170.07096,952.96252 C 169.23548,952.96252 168.56707,953.07392 168.56707,953.21317 C 168.56707,953.35242 169.23548,953.46382 170.07096,953.46382 C 170.90645,953.46382 171.57486,953.35242 171.57486,953.21317 z M 172.57745,953.21317 C 172.57745,953.07531 172.40826,952.96252 172.20148,952.96252 C 171.99469,952.96252 171.8255,953.07531 171.8255,953.21317 C 171.8255,953.35103 171.99469,953.46382 172.20148,953.46382 C 172.40826,953.46382 172.57745,953.35103 172.57745,953.21317 z M 175.83588,953.21317 C 175.83588,953.07392 175.16748,952.96252 174.33199,952.96252 C 173.4965,952.96252 172.8281,953.07392 172.8281,953.21317 C 172.8281,953.35242 173.4965,953.46382 174.33199,953.46382 C 175.16748,953.46382 175.83588,953.35242 175.83588,953.21317 z M 176.83848,953.21317 C 176.83848,953.07531 176.66929,952.96252 176.4625,952.96252 C 176.25572,952.96252 176.08653,953.07531 176.08653,953.21317 C 176.08653,953.35103 176.25572,953.46382 176.4625,953.46382 C 176.66929,953.46382 176.83848,953.35103 176.83848,953.21317 z M 180.09691,953.21317 C 180.09691,953.07392 179.4285,952.96252 178.59302,952.96252 C 177.75753,952.96252 177.08913,953.07392 177.08913,953.21317 C 177.08913,953.35242 177.75753,953.46382 178.59302,953.46382 C 179.4285,953.46382 180.09691,953.35242 180.09691,953.21317 z M 181.0995,953.21317 C 181.0995,953.07531 180.93032,952.96252 180.72353,952.96252 C 180.51675,952.96252 180.34756,953.07531 180.34756,953.21317 C 180.34756,953.35103 180.51675,953.46382 180.72353,953.46382 C 180.93032,953.46382 181.0995,953.35103 181.0995,953.21317 z M 184.35794,953.21317 C 184.35794,953.07392 183.68953,952.96252 182.85404,952.96252 C 182.01856,952.96252 181.35015,953.07392 181.35015,953.21317 C 181.35015,953.35242 182.01856,953.46382 182.85404,953.46382 C 183.68953,953.46382 184.35794,953.35242 184.35794,953.21317 z M 185.36053,953.21317 C 185.36053,953.07531 185.19134,952.96252 184.98456,952.96252 C 184.77777,952.96252 184.60859,953.07531 184.60859,953.21317 C 184.60859,953.35103 184.77777,953.46382 184.98456,953.46382 C 185.19134,953.46382 185.36053,953.35103 185.36053,953.21317 z M 188.61896,953.21441 C 188.61896,953.07365 187.95547,952.96252 187.11507,952.96252 C 186.28793,952.96252 185.61118,953.06057 185.61118,953.18041 C 185.61118,953.30025 186.28793,953.41359 187.11507,953.43229 C 187.97803,953.45179 188.61896,953.35893 188.61896,953.2144 L 188.61896,953.21441 z M 189.62156,953.21317 C 189.62156,953.07531 189.45237,952.96252 189.24559,952.96252 C 189.0388,952.96252 188.86961,953.07531 188.86961,953.21317 C 188.86961,953.35103 189.0388,953.46382 189.24559,953.46382 C 189.45237,953.46382 189.62156,953.35103 189.62156,953.21317 z M 190.62415,953.21317 C 190.62415,953.07531 190.45496,952.96252 190.24818,952.96252 C 190.04139,952.96252 189.87221,953.07531 189.87221,953.21317 C 189.87221,953.35103 190.04139,953.46382 190.24818,953.46382 C 190.45496,953.46382 190.62415,953.35103 190.62415,953.21317 z M 193.88258,953.21317 C 193.88258,953.07392 193.21418,952.96252 192.37869,952.96252 C 191.54321,952.96252 190.8748,953.07392 190.8748,953.21317 C 190.8748,953.35242 191.54321,953.46382 192.37869,953.46382 C 193.21418,953.46382 193.88258,953.35242 193.88258,953.21317 z M 194.88518,953.21317 C 194.88518,953.07531 194.71599,952.96252 194.50921,952.96252 C 194.30242,952.96252 194.13323,953.07531 194.13323,953.21317 C 194.13323,953.35103 194.30242,953.46382 194.50921,953.46382 C 194.71599,953.46382 194.88518,953.35103 194.88518,953.21317 z M 198.14361,953.21317 C 198.14361,953.07392 197.47521,952.96252 196.63972,952.96252 C 195.80423,952.96252 195.13583,953.07392 195.13583,953.21317 C 195.13583,953.35242 195.80423,953.46382 196.63972,953.46382 C 197.47521,953.46382 198.14361,953.35242 198.14361,953.21317 z M 199.14621,953.21317 C 199.14621,953.07531 198.97702,952.96252 198.77023,952.96252 C 198.56345,952.96252 198.39426,953.07531 198.39426,953.21317 C 198.39426,953.35103 198.56345,953.46382 198.77023,953.46382 C 198.97702,953.46382 199.14621,953.35103 199.14621,953.21317 z M 202.40464,953.21317 C 202.40464,953.07392 201.73623,952.96252 200.90075,952.96252 C 200.06526,952.96252 199.39686,953.07392 199.39686,953.21317 C 199.39686,953.35242 200.06526,953.46382 200.90075,953.46382 C 201.73623,953.46382 202.40464,953.35242 202.40464,953.21317 z M 203.40723,953.21317 C 203.40723,953.07531 203.23805,952.96252 203.03126,952.96252 C 202.82448,952.96252 202.65529,953.07531 202.65529,953.21317 C 202.65529,953.35103 202.82448,953.46382 203.03126,953.46382 C 203.23805,953.46382 203.40723,953.35103 203.40723,953.21317 z M 206.66567,953.21317 C 206.66567,953.07392 205.99726,952.96252 205.16177,952.96252 C 204.32629,952.96252 203.65788,953.07392 203.65788,953.21317 C 203.65788,953.35242 204.32629,953.46382 205.16177,953.46382 C 205.99726,953.46382 206.66567,953.35242 206.66567,953.21317 z M 207.66826,953.21317 C 207.66826,953.07531 207.49907,952.96252 207.29229,952.96252 C 207.0855,952.96252 206.91631,953.07531 206.91631,953.21317 C 206.91631,953.35103 207.0855,953.46382 207.29229,953.46382 C 207.49907,953.46382 207.66826,953.35103 207.66826,953.21317 z M 210.92669,953.21317 C 210.92669,953.07392 210.25829,952.96252 209.4228,952.96252 C 208.58731,952.96252 207.91891,953.07392 207.91891,953.21317 C 207.91891,953.35242 208.58731,953.46382 209.4228,953.46382 C 210.25829,953.46382 210.92669,953.35242 210.92669,953.21317 z M 211.92929,953.21317 C 211.92929,953.07531 211.7601,952.96252 211.55331,952.96252 C 211.34653,952.96252 211.17734,953.07531 211.17734,953.21317 C 211.17734,953.35103 211.34653,953.46382 211.55331,953.46382 C 211.7601,953.46382 211.92929,953.35103 211.92929,953.21317 z M 215.18772,953.21317 C 215.18772,953.07392 214.51931,952.96252 213.68383,952.96252 C 212.84834,952.96252 212.17994,953.07392 212.17994,953.21317 C 212.17994,953.35242 212.84834,953.46382 213.68383,953.46382 C 214.51931,953.46382 215.18772,953.35242 215.18772,953.21317 z M 216.19031,953.21317 C 216.19031,953.07531 216.02113,952.96252 215.81434,952.96252 C 215.60756,952.96252 215.43837,953.07531 215.43837,953.21317 C 215.43837,953.35103 215.60756,953.46382 215.81434,953.46382 C 216.02113,953.46382 216.19031,953.35103 216.19031,953.21317 z M 217.19291,953.21317 C 217.19291,953.07531 217.02372,952.96252 216.81694,952.96252 C 216.61015,952.96252 216.44096,953.07531 216.44096,953.21317 C 216.44096,953.35103 216.61015,953.46382 216.81694,953.46382 C 217.02372,953.46382 217.19291,953.35103 217.19291,953.21317 z M 220.45134,953.1804 C 220.45134,953.06057 219.77459,952.96252 218.94745,952.96252 C 218.10705,952.96252 217.44356,953.07365 217.44356,953.2144 C 217.44356,953.35893 218.08449,953.45179 218.94745,953.43229 C 219.77459,953.41359 220.45134,953.30024 220.45134,953.18041 L 220.45134,953.1804 z M 221.45394,953.21317 C 221.45394,953.07531 221.28475,952.96252 221.07796,952.96252 C 220.87118,952.96252 220.70199,953.07531 220.70199,953.21317 C 220.70199,953.35103 220.87118,953.46382 221.07796,953.46382 C 221.28475,953.46382 221.45394,953.35103 221.45394,953.21317 z M 224.71237,953.21317 C 224.71237,953.07392 224.04396,952.96252 223.20848,952.96252 C 222.37299,952.96252 221.70458,953.07392 221.70458,953.21317 C 221.70458,953.35242 222.37299,953.46382 223.20848,953.46382 C 224.04396,953.46382 224.71237,953.35242 224.71237,953.21317 z M 225.71496,953.21317 C 225.71496,953.07531 225.54577,952.96252 225.33899,952.96252 C 225.1322,952.96252 224.96302,953.07531 224.96302,953.21317 C 224.96302,953.35103 225.1322,953.46382 225.33899,953.46382 C 225.54577,953.46382 225.71496,953.35103 225.71496,953.21317 z M 228.97339,953.21317 C 228.97339,953.07392 228.30499,952.96252 227.4695,952.96252 C 226.63402,952.96252 225.96561,953.07392 225.96561,953.21317 C 225.96561,953.35242 226.63402,953.46382 227.4695,953.46382 C 228.30499,953.46382 228.97339,953.35242 228.97339,953.21317 z M 229.97599,953.21317 C 229.97599,953.07531 229.8068,952.96252 229.60002,952.96252 C 229.39323,952.96252 229.22404,953.07531 229.22404,953.21317 C 229.22404,953.35103 229.39323,953.46382 229.60002,953.46382 C 229.8068,953.46382 229.97599,953.35103 229.97599,953.21317 z M 233.23442,953.21317 C 233.23442,953.07392 232.56602,952.96252 231.73053,952.96252 C 230.89504,952.96252 230.22664,953.07392 230.22664,953.21317 C 230.22664,953.35242 230.89504,953.46382 231.73053,953.46382 C 232.56602,953.46382 233.23442,953.35242 233.23442,953.21317 z M 234.23702,953.21317 C 234.23702,953.07531 234.06783,952.96252 233.86104,952.96252 C 233.65426,952.96252 233.48507,953.07531 233.48507,953.21317 C 233.48507,953.35103 233.65426,953.46382 233.86104,953.46382 C 234.06783,953.46382 234.23702,953.35103 234.23702,953.21317 z M 237.49545,953.21317 C 237.49545,953.07392 236.82704,952.96252 235.99156,952.96252 C 235.15607,952.96252 234.48766,953.07392 234.48766,953.21317 C 234.48766,953.35242 235.15607,953.46382 235.99156,953.46382 C 236.82704,953.46382 237.49545,953.35242 237.49545,953.21317 z M 238.49804,953.21317 C 238.49804,953.07531 238.32886,952.96252 238.12207,952.96252 C 237.91529,952.96252 237.7461,953.07531 237.7461,953.21317 C 237.7461,953.35103 237.91529,953.46382 238.12207,953.46382 C 238.32886,953.46382 238.49804,953.35103 238.49804,953.21317 z M 241.75648,953.21317 C 241.75648,953.07392 241.08807,952.96252 240.25258,952.96252 C 239.4171,952.96252 238.74869,953.07392 238.74869,953.21317 C 238.74869,953.35242 239.4171,953.46382 240.25258,953.46382 C 241.08807,953.46382 241.75648,953.35242 241.75648,953.21317 z M 242.75907,953.21317 C 242.75907,953.07531 242.58988,952.96252 242.3831,952.96252 C 242.17631,952.96252 242.00712,953.07531 242.00712,953.21317 C 242.00712,953.35103 242.17631,953.46382 242.3831,953.46382 C 242.58988,953.46382 242.75907,953.35103 242.75907,953.21317 z M 246.0175,953.21441 C 246.0175,953.07365 245.35401,952.96252 244.51361,952.96252 C 243.68647,952.96252 243.00972,953.06057 243.00972,953.18041 C 243.00972,953.30025 243.68647,953.41359 244.51361,953.43229 C 245.37657,953.45179 246.0175,953.35893 246.0175,953.2144 L 246.0175,953.21441 z M 247.0201,953.21317 C 247.0201,953.07531 246.85091,952.96252 246.64412,952.96252 C 246.43734,952.96252 246.26815,953.07531 246.26815,953.21317 C 246.26815,953.35103 246.43734,953.46382 246.64412,953.46382 C 246.85091,953.46382 247.0201,953.35103 247.0201,953.21317 z M 248.02269,953.21317 C 248.02269,953.07531 247.8535,952.96252 247.64672,952.96252 C 247.43993,952.96252 247.27075,953.07531 247.27075,953.21317 C 247.27075,953.35103 247.43993,953.46382 247.64672,953.46382 C 247.8535,953.46382 248.02269,953.35103 248.02269,953.21317 z M 251.28112,953.1804 C 251.28112,953.06057 250.60437,952.96252 249.77723,952.96252 C 248.93683,952.96252 248.27334,953.07365 248.27334,953.2144 C 248.27334,953.35893 248.91427,953.45179 249.77723,953.43229 C 250.60437,953.41359 251.28112,953.30024 251.28112,953.18041 L 251.28112,953.1804 z M 252.28372,953.21317 C 252.28372,953.07531 252.11453,952.96252 251.90775,952.96252 C 251.70096,952.96252 251.53177,953.07531 251.53177,953.21317 C 251.53177,953.35103 251.70096,953.46382 251.90775,953.46382 C 252.11453,953.46382 252.28372,953.35103 252.28372,953.21317 z M 255.54215,953.21317 C 255.54215,953.07392 254.87375,952.96252 254.03826,952.96252 C 253.20277,952.96252 252.53437,953.07392 252.53437,953.21317 C 252.53437,953.35242 253.20277,953.46382 254.03826,953.46382 C 254.87375,953.46382 255.54215,953.35242 255.54215,953.21317 z M 256.54475,953.21317 C 256.54475,953.07531 256.37556,952.96252 256.16877,952.96252 C 255.96199,952.96252 255.7928,953.07531 255.7928,953.21317 C 255.7928,953.35103 255.96199,953.46382 256.16877,953.46382 C 256.37556,953.46382 256.54475,953.35103 256.54475,953.21317 z M 259.80318,953.21317 C 259.80318,953.07392 259.13477,952.96252 258.29929,952.96252 C 257.4638,952.96252 256.79539,953.07392 256.79539,953.21317 C 256.79539,953.35242 257.4638,953.46382 258.29929,953.46382 C 259.13477,953.46382 259.80318,953.35242 259.80318,953.21317 z M 260.80577,953.21317 C 260.80577,953.07531 260.63658,952.96252 260.4298,952.96252 C 260.22301,952.96252 260.05383,953.07531 260.05383,953.21317 C 260.05383,953.35103 260.22301,953.46382 260.4298,953.46382 C 260.63658,953.46382 260.80577,953.35103 260.80577,953.21317 z M 264.0642,953.21317 C 264.0642,953.07392 263.3958,952.96252 262.56031,952.96252 C 261.72483,952.96252 261.05642,953.07392 261.05642,953.21317 C 261.05642,953.35242 261.72483,953.46382 262.56031,953.46382 C 263.3958,953.46382 264.0642,953.35242 264.0642,953.21317 z M 265.0668,953.21317 C 265.0668,953.07531 264.89761,952.96252 264.69083,952.96252 C 264.48404,952.96252 264.31485,953.07531 264.31485,953.21317 C 264.31485,953.35103 264.48404,953.46382 264.69083,953.46382 C 264.89761,953.46382 265.0668,953.35103 265.0668,953.21317 z M 268.32523,953.21317 C 268.32523,953.07392 267.65683,952.96252 266.82134,952.96252 C 265.98585,952.96252 265.31745,953.07392 265.31745,953.21317 C 265.31745,953.35242 265.98585,953.46382 266.82134,953.46382 C 267.65683,953.46382 268.32523,953.35242 268.32523,953.21317 z M 269.32783,953.21317 C 269.32783,953.07531 269.15864,952.96252 268.95185,952.96252 C 268.74507,952.96252 268.57588,953.07531 268.57588,953.21317 C 268.57588,953.35103 268.74507,953.46382 268.95185,953.46382 C 269.15864,953.46382 269.32783,953.35103 269.32783,953.21317 z M 272.58626,953.21317 C 272.58626,953.07392 271.91785,952.96252 271.08237,952.96252 C 270.24688,952.96252 269.57847,953.07392 269.57847,953.21317 C 269.57847,953.35242 270.24688,953.46382 271.08237,953.46382 C 271.91785,953.46382 272.58626,953.35242 272.58626,953.21317 z M 273.58885,953.21317 C 273.58885,953.07531 273.41967,952.96252 273.21288,952.96252 C 273.00609,952.96252 272.83691,953.07531 272.83691,953.21317 C 272.83691,953.35103 273.00609,953.46382 273.21288,953.46382 C 273.41967,953.46382 273.58885,953.35103 273.58885,953.21317 z M 276.84729,953.21441 C 276.84729,953.07365 276.18379,952.96252 275.34339,952.96252 C 274.51625,952.96252 273.8395,953.06057 273.8395,953.18041 C 273.8395,953.30025 274.51625,953.41359 275.34339,953.43229 C 276.20635,953.45179 276.84729,953.35893 276.84729,953.2144 L 276.84729,953.21441 z M 277.84988,953.21317 C 277.84988,953.07531 277.68069,952.96252 277.47391,952.96252 C 277.26712,952.96252 277.09793,953.07531 277.09793,953.21317 C 277.09793,953.35103 277.26712,953.46382 277.47391,953.46382 C 277.68069,953.46382 277.84988,953.35103 277.84988,953.21317 z M 278.85247,953.21317 C 278.85247,953.07531 278.68329,952.96252 278.4765,952.96252 C 278.26972,952.96252 278.10053,953.07531 278.10053,953.21317 C 278.10053,953.35103 278.26972,953.46382 278.4765,953.46382 C 278.68329,953.46382 278.85247,953.35103 278.85247,953.21317 z M 282.11091,953.21317 C 282.11091,953.07392 281.4425,952.96252 280.60701,952.96252 C 279.77153,952.96252 279.10312,953.07392 279.10312,953.21317 C 279.10312,953.35242 279.77153,953.46382 280.60701,953.46382 C 281.4425,953.46382 282.11091,953.35242 282.11091,953.21317 z M 283.1135,953.21317 C 283.1135,953.07531 282.94431,952.96252 282.73753,952.96252 C 282.53074,952.96252 282.36156,953.07531 282.36156,953.21317 C 282.36156,953.35103 282.53074,953.46382 282.73753,953.46382 C 282.94431,953.46382 283.1135,953.35103 283.1135,953.21317 z M 286.37193,953.21317 C 286.37193,953.07392 285.70353,952.96252 284.86804,952.96252 C 284.03255,952.96252 283.36415,953.07392 283.36415,953.21317 C 283.36415,953.35242 284.03255,953.46382 284.86804,953.46382 C 285.70353,953.46382 286.37193,953.35242 286.37193,953.21317 z M 287.37453,953.21317 C 287.37453,953.07531 287.20534,952.96252 286.99856,952.96252 C 286.79177,952.96252 286.62258,953.07531 286.62258,953.21317 C 286.62258,953.35103 286.79177,953.46382 286.99856,953.46382 C 287.20534,953.46382 287.37453,953.35103 287.37453,953.21317 z M 290.63296,953.21317 C 290.63296,953.07392 289.96456,952.96252 289.12907,952.96252 C 288.29358,952.96252 287.62518,953.07392 287.62518,953.21317 C 287.62518,953.35242 288.29358,953.46382 289.12907,953.46382 C 289.96456,953.46382 290.63296,953.35242 290.63296,953.21317 z M 291.63556,953.21317 C 291.63556,953.07531 291.46637,952.96252 291.25958,952.96252 C 291.0528,952.96252 290.88361,953.07531 290.88361,953.21317 C 290.88361,953.35103 291.0528,953.46382 291.25958,953.46382 C 291.46637,953.46382 291.63556,953.35103 291.63556,953.21317 z M 294.89399,953.21317 C 294.89399,953.07392 294.22558,952.96252 293.3901,952.96252 C 292.55461,952.96252 291.8862,953.07392 291.8862,953.21317 C 291.8862,953.35242 292.55461,953.46382 293.3901,953.46382 C 294.22558,953.46382 294.89399,953.35242 294.89399,953.21317 z"
+         style="fill:#d1d1d1;fill-opacity:1;stroke:#000000;stroke-width:0.08881252;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.17762502, 0.08881251;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 443.18545,928.29339 L 443.18545,786.56111"
+       id="path6015"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="-836.55176"
+       y="437.94876"
+       id="text6017"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan6019"
+         x="-836.55176"
+         y="437.94876">y axis</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 443.18545,928.29339 L 655.78388,928.29339"
+       id="path6021"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="609.72089"
+       y="946.00995"
+       id="text6023"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6025"
+         x="609.72089"
+         y="946.00995">x axis</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1.06299996;stroke-linecap:square;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6027"
+       sodipodi:cx="265.74802"
+       sodipodi:cy="265.74802"
+       sodipodi:rx="56.692913"
+       sodipodi:ry="56.692913"
+       d="M 319.88903,248.93024 A 56.692913,56.692913 0 0 1 322.43924,265.31088"
+       sodipodi:start="5.9820058"
+       sodipodi:end="6.2754746"
+       sodipodi:open="true"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(177.79191,662.6476)" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="481.88977"
+       y="942.51965"
+       id="text6029"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6031"
+         x="481.88977"
+         y="942.51965">ϴ<tspan
+   style="font-size:9px"
+   id="tspan6033"
+   dy="3.0369604">1</tspan></tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1.0629921;stroke-linecap:square;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6035"
+       sodipodi:cx="265.74802"
+       sodipodi:cy="265.74802"
+       sodipodi:rx="56.692913"
+       sodipodi:ry="56.692913"
+       d="M 211.60507,248.93648 A 56.692913,56.692913 0 0 1 228.74859,222.79305"
+       sodipodi:start="3.442657"
+       sodipodi:end="4.0013403"
+       sodipodi:open="true"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(-1,0,0,1,854.6442,619.28249)" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="641.33856"
+       y="857.48029"
+       id="text6037"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6039"
+         x="641.33856"
+         y="857.48029">ϴ<tspan
+   style="font-size:9px"
+   id="tspan6041"
+   dy="3.3130476">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+       x="558.09271"
+       y="982.4657"
+       id="text6043"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="C:\svnDev\Rainer\Robot\RobotArm\Documentation\Elbow Up and Down.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6045"
+         x="558.09271"
+         y="982.4657">(b)</tspan></text>
+  </g>
+</svg>
