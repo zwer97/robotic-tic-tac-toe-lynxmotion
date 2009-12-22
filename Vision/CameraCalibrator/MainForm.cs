@@ -86,23 +86,6 @@ namespace CameraCalibrator
 			m_ImageBoxWithHeading_Original.ImageBox.Image = m_MainFormModel.ClippedImage;
 			m_ImageBoxWithHeading_BW.ImageBox.Image = m_MainFormModel.BlackAndWhiteImage;
 			m_ImageBoxWithHeading_Rectangles.ImageBox.Image = m_MainFormModel.FoundRectanglesImage;
-			////m_ImageBoxWithHeading_Original.ImageBox.Image = m_BoardVision.ClippedImage;
-
-
-			//MCvBox2D box = m_BoardVision.GameSection[0, 0].Box;
-			//if (box.size != Size.Empty)
-			//{
-			//    Image<Bgr, Byte> cellImage = m_BoardVision.ClippedImage.Copy(box);
-			//    //Image<Hls, Byte> cellImageHsv = cellImage.Convert<Hls, Byte>();
-
-			//    //s_Hue = (s_Hue + 1) % 255;
-			//    //label2.Text = s_Hue.ToString();
-			//    //cellImageHsv = new Image<Hls, byte>(100, 100, new Hls(s_Hue, 127, 255));
-
-			//    m_ImageBoxWithHeading_WhiteBalanced.ImageBox.Image = cellImage;
-			//}
-
-			//UpdateGamePieces();
 		}
 
 		private void OnCaptureButtonClicked(object sender, EventArgs e)
@@ -118,7 +101,6 @@ namespace CameraCalibrator
 			{
 				saveFileDialog.InitialDirectory = Path.GetDirectoryName(Settings.Default.CalibrationFile);
 			}
-			//openFileDialog.InitialDirectory = "c:\\";
 			saveFileDialog.Filter = "cfg files (*.cfg)|*.cfg|All files (*.*)|*.*";
 			saveFileDialog.FilterIndex = 1;
 			saveFileDialog.RestoreDirectory = true;

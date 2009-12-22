@@ -51,7 +51,7 @@ namespace CameraCalibrator
 			m_ErodedImage = m_ClippedImage.Erode(1);
 
 			//Convert the image to grayscale
-			m_GrayImage = m_ErodedImage.Convert<Gray, Byte>(); //.PyrDown().PyrUp();
+			m_GrayImage = m_ErodedImage.Convert<Gray, Byte>();
 
 			m_BlackAndWhiteImage = m_GrayImage.ThresholdBinaryInv(new Gray(threshold), new Gray(255));
 
