@@ -27,7 +27,7 @@ namespace Vision
 			m_SideLength = sideLength;
 			m_YOffset = yOffSet;
 
-			// NOte: The physical robot coordinate systme has the x and y axes flipped
+			// Note: The physical robot coordinate system has the x and y axes flipped
 			m_PhysCenterFirstBox = new PointF(
 				yOffSet + m_SideLength / 2.0F,
 				- (this.XCount - 1) / 2.0F * m_SideLength);
@@ -57,8 +57,6 @@ namespace Vision
 					m_InsideRectangles[i, j] = insideRectangles[j * this.XCount + i];
 				}
 			}
-
-			//CameraCalibration.Instance.Initialize(cameraVsPhysicalPoints);
 		}
 
 		public MCvBox2D[,] InsideRectangles
