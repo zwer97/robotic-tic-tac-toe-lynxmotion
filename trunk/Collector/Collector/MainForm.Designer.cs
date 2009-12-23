@@ -211,7 +211,7 @@
 			this.Controls.Add(this.m_MenuStrip);
 			this.MainMenuStrip = this.m_MenuStrip;
 			this.Name = "MainForm";
-			this.Text = "Camera Calibration";
+			this.Text = "Collector";
 			this.m_MenuStrip.ResumeLayout(false);
 			this.m_MenuStrip.PerformLayout();
 			this.m_LeftPanel.ResumeLayout(false);

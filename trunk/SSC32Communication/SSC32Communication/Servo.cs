@@ -14,11 +14,7 @@ namespace SSC32Communication
 		private int m_Id;
 		private bool m_IsEnabled = false;
 		private int m_MinPosMSecs = 500;
-		//private int m_MinDeg = -90;
 		private int m_MaxPosMSecs = 2500;
-		//private int m_MaxDeg = 90;
-
-		//private double m_MSecsPerDegree;
 
 		private double m_Slope;
 		private double m_YIntercept;
@@ -58,11 +54,6 @@ namespace SSC32Communication
 			this.YIntercept = yIntercept;
 		}
 
-		//private void InitializeCalibrationFactors()
-		//{
-		//    m_MSecsPerDegree = (double)(m_MaxPosMSecs - m_MinPosMSecs) / (double)(m_MaxDeg - m_MinDeg);
-		//}
-
 		public event EventHandler Changed;
 
 		public string Name
@@ -92,16 +83,6 @@ namespace SSC32Communication
 			}
 		}
 
-		//public bool IsReverse
-		//{
-		//    get { return m_IsReverse; }
-		//    set
-		//    {
-		//        m_IsReverse = value;
-		//        InitializeCalibrationFactors();
-		//    }
-		//}
-
 		public int MinPosMSecs
 		{
 			get { return m_MinPosMSecs; }
@@ -113,7 +94,6 @@ namespace SSC32Communication
 				}
 
 				m_MinPosMSecs = value;
-				//InitializeCalibrationFactors();
 				RaiseChangedEvent();
 			}
 		}
@@ -129,7 +109,6 @@ namespace SSC32Communication
 				}
 
 				m_MaxPosMSecs = value;
-				//InitializeCalibrationFactors();
 				RaiseChangedEvent();
 			}
 		}
@@ -145,7 +124,6 @@ namespace SSC32Communication
 				}
 
 				m_Slope = value;
-				//InitializeCalibrationFactors();
 				RaiseChangedEvent();
 			}
 		}
@@ -161,7 +139,6 @@ namespace SSC32Communication
 				}
 
 				m_YIntercept = value;
-				//InitializeCalibrationFactors();
 				RaiseChangedEvent();
 			}
 		}
@@ -176,7 +153,6 @@ namespace SSC32Communication
 			int milliSecs = (int)(m_Slope * angleDeg + m_YIntercept);
 			CheckMilliSecs(milliSecs);
 
-			//int msecs = (int)(m_MinPosMSecs + (angleDeg - m_MinDeg) * m_MSecsPerDegree);
 			return milliSecs;
 		}
 
@@ -186,11 +162,6 @@ namespace SSC32Communication
 				milliSecs > m_MaxPosMSecs)
 			{
 				throw new ArgumentException("Specified angle falls outside the accessible range", "angleDeg");
-				//string errorMessage = String.Format(
-				//    CultureInfo.InvariantCulture,
-				//    "Resulting Value must be between the minimum angle {0} and maximum angle {1}",
-				//    m_MinDeg, m_MaxDeg);
-				//throw new ArgumentException(errorMessage);
 			}
 		}
 
