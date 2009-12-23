@@ -7,6 +7,9 @@ using System.Globalization;
 
 namespace SSC32Communication
 {
+	/// <summary>
+	/// Handles the configuration files produced by the Lynxmotion's RIOS software
+	/// </summary>
 	public class SSC32ConfigFile
 	{
 		public static void ConfigureServosFromFile(string filePath, Servo[] servos)

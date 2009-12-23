@@ -28,12 +28,6 @@ namespace Collector
 			}
 		}
 
-		//internal BlobInfo(BlobInfo blobInfo)
-		//{
-		//    this.Area = blobInfo.Area;
-		//    this.CameraCenter = blobInfo.
-		//}
-
 		private MCvBox2D GetMinAreaRect(Contour<Point> contour)
 		{
 			Point[] points = contour.ToArray();

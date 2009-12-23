@@ -24,7 +24,6 @@ namespace SSC32Communication
 			m_SerialPort.Open();
 
 			m_CommandRunner = new CommandRunner(m_SerialPort);
-			//m_Servos = new Servos();
 		}
 
 
@@ -42,11 +41,6 @@ namespace SSC32Communication
 		{
 			m_CommandRunner.RunCommand(command);
 		}
-
-		//public void ConfigureFromFile(string configFilePath)
-		//{
-		//    m_Servos.ConfigureFromFile(configFilePath);
-		//}
 
 		internal SerialPort SerialPort
 		{
