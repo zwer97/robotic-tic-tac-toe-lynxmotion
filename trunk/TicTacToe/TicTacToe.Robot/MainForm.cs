@@ -38,7 +38,6 @@ namespace TicTacToe.Robot
 		private void OnModelChanged()
 		{
 			m_ThresholdUpDown.Value = m_Model.Threshold;
-			//m_DetectedBlobsTextBox.Text = m_Model.GetBlobInfosString();
 
 			m_ImageBoxWithHeading_Original.ImageBox.Image = m_Model.ImageProcessor.ClippedImage;
 			m_ImageBoxWithHeading_BW.ImageBox.Image = m_Model.ImageProcessor.BlackAndWhiteImage;
@@ -48,9 +47,6 @@ namespace TicTacToe.Robot
 			{
 				m_ImageBoxWithHeading_Blobs.ImageBox.Image = m_Model.ImageProcessor.DetectedBlobsImage;
 			}
-
-			////m_HomeButton.Enabled = !m_Model.IsBusy;
-			////m_CollectButton.Enabled = !m_Model.IsBusy;
 
 			m_CurrentStateTextBox.Text = m_Model.CurrentStateName;
 			m_DeltaNonZeroTextBox.Text = m_Model.ImageProcessor.DeltaNonZero.ToString();
@@ -173,37 +169,5 @@ namespace TicTacToe.Robot
 		{
 			m_Model.Reset();
 		}
-
-		//private void ProcessFrame(object sender, EventArgs e)
-		//{
-		//    m_BoardVision.ProcessFrame((int)m_ThresholdUpDown.Value);
-
-		//    m_ImageBoxWithHeading_Original.ImageBox.Image = m_BoardVision.ClippedImage;
-		//    //m_ImageBoxWithHeading_WhiteBalanced.ImageBox.Image = m_BoardVision.WhiteBalancedImage;
-		//    m_ImageBoxWithHeading_BW.ImageBox.Image = m_BoardVision.BlackAndWhiteImage;
-		//    m_ImageBoxWithHeading_Rectangles.ImageBox.Image = m_BoardVision.FoundRectanglesImage;
-		//    //m_ImageBoxWithHeading_Original.ImageBox.Image = m_BoardVision.ClippedImage;
-
-
-		//    MCvBox2D box = m_BoardVision.GameSection[0, 0].Box;
-		//    if (box.size != Size.Empty)
-		//    {
-		//        Image<Bgr, Byte> cellImage = m_BoardVision.ClippedImage.Copy(box);
-		//        //Image<Hls, Byte> cellImageHsv = cellImage.Convert<Hls, Byte>();
-
-		//        //s_Hue = (s_Hue + 1) % 255;
-		//        //label2.Text = s_Hue.ToString();
-		//        //cellImageHsv = new Image<Hls, byte>(100, 100, new Hls(s_Hue, 127, 255));
-
-		//        m_ImageBoxWithHeading_Blobs.ImageBox.Image = cellImage;
-		//    }
-
-		//    UpdateGamePieces();
-		//}
-
-		//private void UpdateGamePieces()
-		//{
-		//    m_BoardControl.UpdateGamePieces(m_BoardVision);
-		//}
 	}
 }

@@ -19,7 +19,6 @@ namespace TicTacToe.Robot.Model
 		private int m_Threshold = 128;
 		private int m_CountNonZero;
 		private int m_DeltaNonZero;
-		//private bool m_IsStable = true;
 		private DateTime m_UtcLastSignificantChange = DateTime.UtcNow; 
 
 		private Image<Bgr, Byte> m_OriginalImage = null;
@@ -69,7 +68,7 @@ namespace TicTacToe.Robot.Model
 			m_ClippedImage = m_OriginalImage.Copy(this.RegionOfInterest);
 
 			//Convert the image to grayscale
-			m_GrayImage = m_ClippedImage.Convert<Gray, Byte>(); //.PyrDown().PyrUp();
+			m_GrayImage = m_ClippedImage.Convert<Gray, Byte>();
 
 			m_BlackAndWhiteImage = m_GrayImage.ThresholdBinaryInv(new Gray(m_Threshold), new Gray(255));
 
@@ -150,7 +149,10 @@ namespace TicTacToe.Robot.Model
 			{
 				if (m_DetectedBlobsImage == null)
 				{
-					m_DetectedBlobsImage = this.BlackAndWhiteImage.CopyBlank();
+					if (this.BlackAndWhiteImage != null)
+					{
+						m_DetectedBlobsImage = this.BlackAndWhiteImage.CopyBlank();
+					}
 				}
 				return m_DetectedBlobsImage;
 			}
