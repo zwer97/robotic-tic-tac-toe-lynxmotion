@@ -20,13 +20,6 @@ namespace SSC32Communication.Console
 					Servo baseServo = servos.BaseServo;
 					System.Console.WriteLine(baseServo);
 
-					//System.Console.WriteLine(board.Servos.BaseServo.TicksForAngleDeg(0));
-					//System.Console.WriteLine("msec: " + board.Servos.BaseServo.MilliSecForAngleDeg(0));
-					//System.Console.WriteLine(board.Servos.BaseServo.TicksForAngleDeg(-90));
-					//System.Console.WriteLine("msec: " + board.Servos.BaseServo.MilliSecForAngleDeg(-90));
-					//System.Console.WriteLine(board.Servos.BaseServo.TicksForAngleDeg(90));
-					//System.Console.WriteLine("msec: " + board.Servos.BaseServo.MilliSecForAngleDeg(90));
-
 					baseServo.Move(-30, 100, board);
 					baseServo.Move(30, 100, board);
 				}

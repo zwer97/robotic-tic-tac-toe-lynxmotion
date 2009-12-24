@@ -36,7 +36,6 @@ namespace SSC32Communication
 		{
 			while (!CommandCompleted())
 			{
-				//Console.WriteLine("Waiting ...");
 				Thread.Sleep(TimeSpan.FromMilliseconds(10));
 			}
 			return;

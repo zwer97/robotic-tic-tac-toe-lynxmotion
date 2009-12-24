@@ -171,7 +171,6 @@ namespace TicTacToe.Robot.Model
 			moveCommand[ChannelId.Shoulder] = jointAngles.ShoulderAngle;
 			moveCommand[ChannelId.Elbow] = jointAngles.ElbowAngle;
 			moveCommand[ChannelId.WristUpDown] = jointAngles.WristTiltAngle;
-			//moveCommand[ChannelId.Gripper] = c_OpenGripperPosition;
 
 			this.SSC32Board.RunCommand(moveCommand);
 		}
@@ -190,7 +189,6 @@ namespace TicTacToe.Robot.Model
 			moveCommand[ChannelId.Shoulder] = jointAngles.ShoulderAngle;
 			moveCommand[ChannelId.Elbow] = jointAngles.ElbowAngle;
 			moveCommand[ChannelId.WristUpDown] = jointAngles.WristTiltAngle;
-			//moveCommand[ChannelId.Gripper] = 20;
 
 			this.SSC32Board.RunCommand(moveCommand);
 		}
