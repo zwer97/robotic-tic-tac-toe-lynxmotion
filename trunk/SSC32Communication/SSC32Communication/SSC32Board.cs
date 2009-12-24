@@ -26,7 +26,6 @@ namespace SSC32Communication
 			m_CommandRunner = new CommandRunner(m_SerialPort);
 		}
 
-
 		public void RunCommand(string command)
 		{
 			m_CommandRunner.RunCommand(command);

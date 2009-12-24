@@ -17,8 +17,6 @@ namespace SSC32Communication.UI
 
 			using (SSC32Board board = new SSC32Board(portName))
 			{
-				//board.ConfigureFromFile("ConfigSSC32.cfg");
-
 				Application.EnableVisualStyles();
 				Application.SetCompatibleTextRenderingDefault(false);
 

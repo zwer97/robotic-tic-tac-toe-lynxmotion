@@ -17,59 +17,12 @@ namespace TicTacToe.Robot.StateMachine
 {
 	internal class ControllerHsm : QHsm
 	{
-		//private object m_SyncObjectShutdown = new object();
-		//private bool m_IsDisposed = false;
-		//private QTimer m_Timer;
-		//private TimeSpan m_CaptureInterval = TimeSpan.FromMilliseconds(100);
 		private MainModel m_MainModel;
 
 		public ControllerHsm(MainModel mainModel)
 		{
 			m_MainModel = mainModel;
-			//m_Timer = new QTimer(this);
 		}
-
-		//public void Start()
-		//{
-		//    this.PostFIFO(new ContollerEvent(ControllerSignal.Start));
-		//}
-
-		//public void Stop()
-		//{
-		//    this.PostFIFO(new ContollerEvent(ControllerSignal.Stop));
-		//}
-
-		///// <summary>
-		///// Ends the execution of the Cleaner thread and waits for its completion. 
-		///// </summary>
-		//public void ShutDown()
-		//{
-		//    lock (m_SyncObjectShutdown)
-		//    {
-		//        if (m_IsDisposed)
-		//        {
-		//            throw new InvalidOperationException("The active object is already shut down.");
-		//        }
-		//        else
-		//        {
-		//            this.PostLIFO(new ContollerEvent(ControllerSignal.ShutDown));
-		//            Monitor.Wait(m_SyncObjectShutdown);
-		//        }
-		//    }
-		//}
-
-		///// <summary>
-		///// Allows a deriving class to react to the fact that the execution 
-		///// of the active object has been aborted.
-		///// </summary>
-		//protected override void OnExecutionAborted()
-		//{
-		//    lock (m_SyncObjectShutdown)
-		//    {
-		//        m_IsDisposed = true;
-		//        Monitor.Pulse(m_SyncObjectShutdown);
-		//    }
-		//}
 
 		/// <summary>
 		/// Is called inside of the function Init to give the deriving class a chance to
@@ -82,7 +35,6 @@ namespace TicTacToe.Robot.StateMachine
 			InitializeState(this.CatchAll); // initial transition
 		}
 
-		//private static TransitionChain s_Tran_CatchAll_End;
 		private QState CatchAll(IQEvent qEvent)
 		{
 			LogEvent(MethodBase.GetCurrentMethod().Name, qEvent);
@@ -97,19 +49,6 @@ namespace TicTacToe.Robot.StateMachine
 			}
 			return this.TopState;
 		}
-
-		//private QState End(IQEvent qEvent)
-		//{
-		//    LogEvent(MethodBase.GetCurrentMethod().Name, qEvent);
-		//    switch (qEvent.QSignal)
-		//    {
-		//        case (int)QSignals.Entry:
-		//            Console.WriteLine("****** Entering state End ******");
-		//            this.Abort(); // Abort the execution of the event loop. We are done.
-		//            return null;
-		//    }
-		//    return this.CatchAll;
-		//}
 
 		private QState InitializeBoard(IQEvent qEvent)
 		{
@@ -338,24 +277,6 @@ namespace TicTacToe.Robot.StateMachine
 		private QState GameOver(IQEvent qEvent)
 		{
 			LogEvent(MethodBase.GetCurrentMethod().Name, qEvent);
-			//switch (qEvent.QSignal)
-			//{
-			//    case (int)QSignals.Entry:
-			//        GameState gameState = m_MainModel.BoardManager.Board.GetGameState();
-			//        if (gameState == GameState.Player1Won)
-			//        {
-			//            TransitionTo(this.HumanWon);
-			//        }
-			//        else if (gameState == GameState.Player2Won)
-			//        {
-			//            TransitionTo(this.RobotWon);
-			//        }
-			//        else
-			//        {
-			//            TransitionTo(this.Draw);
-			//        }
-			//        return null;
-			//}
 			return this.CatchAll;
 		}
 

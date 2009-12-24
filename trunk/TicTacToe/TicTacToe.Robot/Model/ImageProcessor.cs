@@ -68,9 +68,6 @@ namespace TicTacToe.Robot.Model
 			m_OriginalImage = m_Capture.QueryFrame();
 			m_ClippedImage = m_OriginalImage.Copy(this.RegionOfInterest);
 
-			// Make the dark portions bigger
-			//m_ErodedImage = m_ClippedImage.Erode(1);
-
 			//Convert the image to grayscale
 			m_GrayImage = m_ClippedImage.Convert<Gray, Byte>(); //.PyrDown().PyrUp();
 
@@ -84,9 +81,6 @@ namespace TicTacToe.Robot.Model
 				m_UtcLastSignificantChange = DateTime.UtcNow;
 			}
 			m_CountNonZero = countNonZero;
-
-			//FindBlobsAndDraw(m_BlackAndWhiteImage);
-			//RaiseChangedEvent();
 		}
 
 		internal void UpdateRectanglesImage(IEnumerable<MCvBox2D> rectangles)
