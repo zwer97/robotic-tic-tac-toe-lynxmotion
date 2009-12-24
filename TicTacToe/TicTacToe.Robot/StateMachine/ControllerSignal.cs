@@ -14,8 +14,6 @@ namespace TicTacToe.Robot.StateMachine
 		HumanMoved,
 		FindUnusedPiece,
 		RobotMoveComplete,
-		TimeOut,					// Idle time expired
-		ShutDown,					// Triggers the shut down of the execution of the active object
 		MaxSignal					// Keep this signal always last
 	}
 }
